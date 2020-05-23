@@ -3,7 +3,7 @@
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: darkslateblue;
+    background-color: lightskyblue;
 }
 
 .grid div {
@@ -13,4 +13,22 @@
 
 .tetromino {
     background-color: khaki;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: lightskyblue;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    display: flex;
 }
